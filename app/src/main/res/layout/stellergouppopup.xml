@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border">
+
+
+
+
+    <TextView
+        android:id="@+id/Professional_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="STELLAR Group"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:textColor="#000000"
+        android:id="@+id/textView9"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="13dp"
+        android:text="More women are needed in IT, engineering, mathematics and science professions if the UK is to fulfil its true potential.
+\n\nIn January 2015 a group of leading women professionals came together to form STELLAR, a network that aims to encourage more women to consider careers in science, engineering, mathematics and IT. Launched as part of her presidential year in BCS, The Chartered Institute for IT, Professor Liz Bacon invited senior women to join STELLAR to support work already being done through collaboration with other groups and to address the lack of diversity in the professions, particularly women, at all levels.
+\n\nLiz Bacon explains:
+\n\n Our aim is to look for new ways to inspire the next generation of women. We will also be supporting existing approaches such as offering mentoring and work shadowing schemes, acting as role models, publicising success, as well as encouraging good practice such as supporting women returners to work with training and flexible working patterns.
+\n\n Maggie Philbin, CEO of Teen Tech, President of Institution of Engineering Designers comments: It's not enough to parachute a few women in as Non-Execs or to encourage girls to consider STEM careers. Companies and academic organisations need to look at how they can build structures and cultures which are genuinely welcoming and to promote those who are already doing this. Otherwise women will continue to vote with their feet.
+\n\n Dr Frances Saunders, President of the Institute of Physics adds: Girls do need to see that there are inspiring women they can identify with having successful careers in STEM before they will be convinced that it is something they would want to do themselves. We need to encourage them to join us in our professions rather than just tell them that studying science and maths will be good for them."
+
+
+
+       />
+
+    </ScrollView>
+
+
+</RelativeLayout>

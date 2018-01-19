@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\David kd\Downloads\app itmes\BCS_Application(3)\BCS_Application\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="188f3e166c0f096ad2fae1dbb217d507d2517b9f">
+        <dex dex="C:\Users\David kd\Downloads\app itmes\BCS_Application(3)\BCS_Application\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7edb98bbaf691387fdbc406881885a1915fc8ac3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\David kd\Downloads\app itmes\BCS_Application(3)\BCS_Application\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="C:\Users\David kd\Downloads\app itmes\BCS_Application(3)\BCS_Application\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_76459266c156ad70a3d8ae47134606ecf3167932\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\David kd\.android\build-cache\1ca3fe69591417f082316c12465858de9b946fa3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="C:\Users\David kd\Downloads\app itmes\BCS_Application(3)\BCS_Application\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6496813c7ccb63d8762ad41134595e6764329cf3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\David kd\.android\build-cache\b99babe6515e6d888ce0dcc44a01eb05e158e6b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\David kd\Downloads\app itmes\BCS_Application(3)\BCS_Application\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8814ce78b54b0a5fc026a48478d08be002bbe3cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\David kd\.android\build-cache\637ae01fb7520faee3d782a07441d86f008296cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\David kd\Downloads\app itmes\BCS_Application(3)\BCS_Application\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a54631aa3b2efb4d6d17602805d663bdd8fb65a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\David kd\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\David kd\Downloads\app itmes\BCS_Application(3)\BCS_Application\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_e8e3606032f867b080c20900afab0daad412a134\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\David kd\.android\build-cache\f5a5bbd302be062d792b7232cbd9c997afe8e05a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\David kd\Downloads\app itmes\BCS_Application(3)\BCS_Application\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6f115a0c1be3a1f3f15c7245fea4e071833204c2\classes.dex" />
+    </item>
+
+</items>

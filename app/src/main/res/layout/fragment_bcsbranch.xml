@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.davidkd.bcs1.Fragments.QualificationFragment"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:layout_marginBottom="14dp"
+        android:layout_height="1000dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/branch_pic"
+            android:id="@+id/imageView3"
+            android:scaleType="centerCrop"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the BCS West London Branch website"
+            android:textStyle="normal|bold"
+            android:id="@+id/textView15"
+            android:paddingTop="5dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The West London Branch normally meets on the second Tuesday of each month from September to June.
+\n\nMeetings take place in a variety of venues in the West London area. The events generally start in the early evening - about 18.00 or later - and last 2 hours. Light refreshments are often available. Please regularly visit the Events page of this website to check for details of events that are planned. Most meetings are free and open to all, but sometimes booking is required via the BCS online system. This will be made clear in the notices - if booking is not mentioned then no booking is required.
+\n\nNote the new Past Events and the Photographs sections on the Navigation list. The Presentations section is updated each month with the latest speaker's slides.
+
+\n\nThe Branch Committee invites those of you on LinkedIn, the professional networking site, to join the 'BCS West London' group. Search for it in the Group's section and do join up! It is open for all branch members to post discussion topics and there will be links to details of our monthly meetings. We would be interested in your ideas for Branch events."
+            android:paddingTop="10dp"
+            android:id="@+id/textView14"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CPD and the Events"
+            android:paddingTop="8dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/textView"
+
+            android:textStyle="normal|bold" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingTop="8dp"
+            android:text="All the meetings in this programme have been assessed at 1.5 hours for Professional Development purposes. For further information about Professional Development please contact the Professional Development Team at BCS HQ."
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT user qualifications"
+            android:paddingTop="8dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/textView16"
+
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From digital literacy to advanced office applications, gain the skills you need for study, work and life in today’s digital world."
+            android:paddingTop="10dp"
+            android:id="@+id/textView17"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: products@hq.bcs.org.uk"
+            android:layout_marginTop="14dp"
+            android:id="@+id/textView18"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Phone: 01793 417541"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Website: www.bcs.org/cpd"
+            android:textStyle="bold" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

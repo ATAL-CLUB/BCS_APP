@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border">
+
+
+
+
+    <TextView
+        android:id="@+id/Professional_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="BCS Student Chapters"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:text="BCS chapters will involve a talented and passionate network of students from universities throughout the UK. Supported by BCS, the chapters programme fosters an environment for collaboration and the sharing of ideas across all IT based disciplines.
+\n\nYou, as students, represent the next generation of IT professionals and we can help prepare you for entering the workforce by demonstrating professionalism from the outset.
+The aims and objectives of a BCS Student Chapter are:
+\n\n• Provide and promote engaging and academically supportive activities and events for students at your university with an interest in computing.
+\n\n•	Establish a professional network between the chapter, BCS member groups and relevant external bodies for the benefit of chapter members.
+\n\n•	To gain knowledge and understanding of the IT industry through guest speakers, events and networking opportunities.
+\n\n•	Increase awareness and enhance the profile of the BCS chapter within the University and the wider community.
+\n\nWhy start a BCS Student Chapter?
+\n\n•	You can begin your association on campus with other like-minded students.
+\n\n•	You can enhance your professional knowledge through discussing IT issues with fellow students.
+\n\n•	You can make contacts and network with professionals who are BCS members in your community.
+\n\n•	You can build your CV by being a committee leader or member of your BCS Student Chapter.
+\n\n•	You can make a difference in your local community through outreach work.
+\n\n•	You can demonstrate professionalism at an early stage, giving a positive impression to employers.
+\n\n•	You can apply for funding through your University’s Student Union and BCS Swindon. This must be done in the planning stages of your event - we are unable to accept requests for funding after the event has taken place."
+            android:textColor="#000000"
+            android:id="@+id/textView9"
+            android:layout_marginRight="13dp"
+            android:layout_marginLeft="13dp"
+
+
+            />
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/q_back"
+    tools:context="com.example.davidkd.bcs1.QuizActivity"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/bcslog"
+    android:layout_marginTop="15dp"
+    android:layout_below="@+id/appBarLayout"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/imageView6" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="BCS QUIZ"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="In this quiz, the questions will be based on what you have learnt in the app.
+
+\n\nThere are 7 questions for you to complete, ranging from general computing questions to questions about BCS.
+
+\n\nGood Luck!"
+    android:textColor="#030303"
+    android:id="@+id/textView2"
+    android:layout_marginTop="176dp"
+    android:layout_below="@+id/appBarLayout"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:text="start quiz"
+        android:textColor="#ffff"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

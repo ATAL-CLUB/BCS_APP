@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/associate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="Fellowship"
+        android:textColor="#0a0a0a"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:textColor="#000000"
+        android:id="@+id/textView9"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="5dp"
+        android:text="Fellowship is recognition of achievement and contribution to the IT profession. It is for those who demonstrate a commitment to advancing standards; strategic leadership and best practice, and encourage this in others.
+\n\n Providing recognition for you as an individual, Fellowship is evidenced by the letters FBCS after your name. However, Fellowship also asks something of you: that you look for opportunities to promote the profession. Fellows are expected to give something back to the profession by being involved and by demonstrating the importance of the profession to industry and the public, and by promoting the Institute’s values and mission.
+
+\n\n As a Fellow you will have opportunities to support the IT profession through engagement activities on behalf of BCS. These may include representing BCS on matters within your area of specialism, contributing to thought leadership debates in the media or at conferences and other events or mentoring tomorrow’s professionals.
+
+\n\n If you are unsuccessful in applying for Fellowship, you may be eligible for Professional membership (MBCS). Professional membership recognises your expertise, knowledge and skills in the industry and demonstrates your commitment in making IT good for society."
+
+        />
+</ScrollView>
+
+
+</RelativeLayout>

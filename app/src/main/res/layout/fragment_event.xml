@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.davidkd.bcs1.Fragments.EventFragment">
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+        android:scaleType="centerCrop"
+    android:src="@drawable/people_event"
+        android:id="@+id/imageView5"
+
+      />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forthcoming events"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We have always used the power of our network to bring about positive, tangible change. We will lead the debate, with our members, but also go beyond to ensure we are informed, open and meaningful.\n\nWe will also give the means, for us all, to make IT good for society through tools, ideas, inspiration, information, events, networks, partnerships and communities. Please take a look in our events calendar for our exciting programme of events."
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We are here to make IT good for society."
+        android:id="@+id/textView24"
+        android:layout_marginTop="10dp"
+       />
+
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout"
+        android:layout_marginTop="10dp"
+       >
+
+
+        <Button
+            android:id="@+id/ServiceID"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/impact"
+             />
+
+        <Button
+            android:id="@+id/OurBlogID"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/p_dinner"
+             />
+    </GridLayout>
+
+
+
+</LinearLayout>

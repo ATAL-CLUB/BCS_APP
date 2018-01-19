@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="700dp"
+    android:background="@drawable/border"
+    >
+
+
+    <TextView
+        android:id="@+id/associate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Affiliate"
+        android:textColor="#0a0a0a"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:text="Affiliate Membership is for anyone with an interest in IT and will appeal to all professionals working within or alongside IT organisations.
+\n \nPerhaps you’re a HR professional working in IT recruitment or a marketer for an IT services company - with Affiliate Membership of BCS, you can stay up to date with the IT market, trends and regulatory developments.
+\n \nIf you have an interest in IT but no experience, then wherever you are in your career you’ll have the chance to meet IT professionals face to face at your local branch, and engage with them online - to ask questions, answer questions, or just listen to the debate.
+\n \nOur CPD (Continuing Professional Development) advice and tools will help you progress through your career, with material and advice available for you at every stage. You’ll have access to a range of online libraries with a wealth of industry reports, books, white papers and data."
+        android:id="@+id/textView6"
+            android:textColor="#0a0a0a"
+         />
+
+</LinearLayout>
+
+
+</RelativeLayout>

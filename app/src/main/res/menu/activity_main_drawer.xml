@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home"
+            android:title="Home"
+            android:checked="true"/>
+        <item
+            android:id="@+id/About_BCS"
+            android:icon="@drawable/about"
+            android:title="About BCS" />
+        <item
+            android:id="@+id/Membership"
+            android:icon="@drawable/membership"
+            android:title="Membership" />
+        <item
+            android:id="@+id/Qualifications_and_Certifications"
+            android:icon="@drawable/qualification"
+            android:title="Qualifications" />
+        <item
+            android:id="@+id/Consultancies"
+            android:icon="@drawable/consultancies"
+            android:title="Consultancies" />
+
+        <item
+            android:id="@+id/Events"
+            android:icon="@drawable/events"
+            android:title="Events" />
+
+        <item
+            android:id="@+id/bcs_west_london_id"
+            android:title="BCS West London"
+            android:icon="@drawable/consultancies"
+            />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/account"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Account" />
+
+        </menu>
+    </item>
+
+</menu>

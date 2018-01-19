@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006b27</color>
+    <color name="colorPrimaryDark">#014219</color>
+    <color name="colorAccent">#2cae12</color>
+    <color name="quizBackgroundColor">#211f1f</color>
+    <color name="button_color1">#121111</color>
+    <color name="button_text">#000000</color>
+    <color name="Top">#ffffff</color>
+
+
+    <color name="default_circle_indicator_fill_color">#ffffff</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#006b27</color>
+    <color name="appWhite">#ffffff</color>
+
+
+
+</resources>

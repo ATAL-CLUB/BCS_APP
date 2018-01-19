@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.davidkd.bcs1.Fragments.QualificationFragment"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+
+        android:layout_marginBottom="14dp"
+        android:layout_height="1000dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@drawable/young_woman_smiling_1"
+            android:id="@+id/imageView3"
+            android:scaleType="centerCrop"
+          />
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="As the global awarding body for IT, we help individuals to progress at all levels"
+            android:textStyle="normal|bold"
+            android:id="@+id/textView15"
+            android:paddingTop="5dp"
+
+            />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whether it's using a computer for the first time or taking the lead in an organisation's agile transformation. With flexible learning and rigorous assessment, our qualifications show employers and customers that you’ve achieved the globally-recognised benchmark in relevant skills and competence."
+        android:paddingTop="10dp"
+        android:id="@+id/textView14"
+         />
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT user qualifications"
+        android:paddingTop="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView16"
+
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From digital literacy to advanced office applications, gain the skills you need for study, work and life in today’s digital world."
+        android:paddingTop="10dp"
+        android:id="@+id/textView17"
+         />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Higher education qualificationsh"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView18"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Higher Education Qualifications provide entry to selected Masters degree programmes and an established route to a successful career in IT."
+        android:paddingTop="10dp"
+        android:id="@+id/textView19"
+         />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professional certification"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView20"
+
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We set the standards that create the outstanding across the industry. From business analysis to agile, our certification portfolio gives IT practitioners the edge they need to succeed."
+        android:id="@+id/textView21"
+        android:layout_marginTop="14dp"
+       />
+
+
+    </LinearLayout>
+
+</ScrollView>

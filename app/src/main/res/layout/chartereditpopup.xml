@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/associate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Chartered IT Professional"
+        android:textColor="#0a0a0a"
+        android:textStyle="bold" />
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Shape the future of the IT profession and prove your experience and competence with Chartered IT Professional status.
+
+\n\nThe CITP standard is based on the needs of industry - employers, academics and Government have told us that they value a status which:
+
+\n\n♦is rigorous and demanding to achieve
+\n\n♦shows that holders understand the business they are working in and add business value through the use of technology
+\n\n♦tells an employer something about the holder which they cannot find out easily themselves
+\n\n♦is underpinned by periodic revalidation"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/textView10"
+        android:textColor="#0a0a0a"
+        android:layout_below="@+id/associate_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+
+
+
+</RelativeLayout>

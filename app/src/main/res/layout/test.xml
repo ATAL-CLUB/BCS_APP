@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you’re at the start of your career in IT, Associate Membership (AMBCS) will give you the tools, resources and opportunities you need.
+
+\n\nAlong with the letters AMBCS after your name, you will also get unrivalled networking opportunities, publications and access to events.
+
+\n\nAMBCS is your pathway to full Professional Membership and will help to ensure you stay in up to date with the industry and maximise career development opportunities."
+        android:textColor="#0a0a0a"
+        android:layout_below="@+id/associate_title"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView8"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/associate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Associate"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

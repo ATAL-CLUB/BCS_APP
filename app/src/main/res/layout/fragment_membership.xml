@@ -1,0 +1,229 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.davidkd.bcs1.Fragments.QualificationFragment"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset"
+    android:id="@+id/membership_RelativeLayout"
+    >
+
+
+<!--   android:src="@drawable/mem_main" -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mem_main"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView12" />
+
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:background="#969292"
+            android:layout_below="@+id/tableLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="302dp"
+            android:id="@+id/imageView9" />
+
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="How about joining one of our memberships? "
+
+    android:id="@+id/textView29"
+    android:layout_below="@+id/imageView9"
+    android:layout_alignStart="@+id/imageView9"
+    android:layout_marginTop="5dp" />
+
+
+        <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="In a society defined by digital, it's our purpose under our Royal Charter to ensure that everyone benefits from technology-led change.
+\n\nOur members are at the heart of this - promoting the standards, best practices and the right decisions to power a bright future. Our Code of Conduct underlines the integrity and professionalism of every member."
+    android:id="@+id/textView30"
+    android:layout_below="@+id/imageView12"
+    android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout3"
+        android:layout_below="@+id/textView29"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp">
+
+        <Button
+            android:layout_width="94dp"
+            android:layout_height="26dp"
+            android:id="@+id/fellowship_text"
+            android:text="Fellowship"
+            android:background="@drawable/main_but"
+            android:gravity="top|left"
+            android:textColor="#fff"
+             />
+
+        <Button
+            android:id="@+id/associate_text"
+            android:layout_width="86dp"
+            android:layout_height="26dp"
+            android:background="@drawable/main_but"
+            android:text="Associate"
+            android:gravity="top|left"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/affiliate"
+            android:layout_width="78dp"
+            android:layout_height="26dp"
+            android:background="@drawable/main_but"
+            android:text="Affiliate"
+            android:gravity="top|left"
+            android:textColor="#fff"
+             />
+
+    </GridLayout>
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout4"
+
+        android:layout_below="@+id/gridLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        >
+
+
+        <Button
+            android:id="@+id/student_membership_text"
+            android:layout_width="170dp"
+            android:layout_height="26dp"
+            android:background="@drawable/main_but"
+            android:text="student membership"
+            android:gravity="top|left"
+            android:textColor="#fff"
+
+         />
+
+        <Button
+            android:id="@+id/professional_text"
+            android:layout_width="115dp"
+            android:layout_height="26dp"
+            android:background="@drawable/main_but"
+            android:text="professional"
+            android:gravity="top|left"
+            android:textColor="#fff"
+
+
+         />
+
+    </GridLayout>
+
+
+
+    <Button
+        android:id="@+id/chartered_it_professional_text"
+        android:layout_width="254dp"
+        android:layout_height="26dp"
+        android:background="@drawable/main_but"
+        android:text="Chartered IT Professional (CITP)"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/gridLayout4"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:gravity="top|left"
+        android:textColor="#fff"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Groups within BCS"
+        android:id="@+id/textView32"
+        android:layout_below="@+id/chartered_it_professional_text"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout5"
+
+        android:textColor="#fff"
+        android:layout_below="@+id/textView32"
+        android:layout_alignParentStart="true">
+
+
+
+
+
+        <Button
+            android:id="@+id/steller_group_text"
+            android:layout_width="120dp"
+            android:layout_height="26dp"
+            android:background="@drawable/main_but"
+            android:text="STELLAR group"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="top|left"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/Student_Chapters_text"
+            android:layout_width="150dp"
+            android:layout_height="26dp"
+            android:background="@drawable/main_but"
+            android:text="Student Chapters"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="2dp"
+            android:gravity="top|left"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/moreButton"
+            android:layout_width="50dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/white_but"
+            android:gravity="top|left"
+            android:text="more"
+            android:textColor="@color/colorPrimary" />
+
+
+
+
+    </GridLayout>
+
+
+</RelativeLayout>
+
+
+
+</ScrollView>

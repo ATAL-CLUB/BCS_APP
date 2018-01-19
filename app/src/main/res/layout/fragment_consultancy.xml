@@ -1,0 +1,237 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.davidkd.bcs1.Fragments.ConsultancyFragment"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset"
+    >
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:weightSum="1"
+        android:id="@+id/tableLayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/con_main"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.46"
+          />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BCS Consultancy are working with businesses to understand, define and improve the digital and IT skills capability required to drive digital transformation across all UK businesses."
+            android:textStyle="normal|bold"
+            android:id="@+id/textView15"
+            android:paddingTop="8dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+
+
+            />
+
+    </TableLayout>
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:layout_height="1dp"
+        android:background="#969292"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView9"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:text="People drive change. Not technology."
+        android:textColor="#000000" />
+
+    <GridLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout"
+        android:layout_below="@+id/textView31"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        >
+
+        <Button
+            android:id="@+id/OurCustomerID"
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/white" />
+
+        <Button
+            android:id="@+id/whitePaperID"
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/our_ser" />
+
+        <Button
+            android:id="@+id/ServiceID"
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/our_service" />
+
+        <Button
+            android:id="@+id/OurBlogID"
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/blog" />
+    </GridLayout>
+
+
+
+
+<ImageView
+    android:layout_width="330dp"
+    android:layout_height="1dp"
+    android:layout_gravity="center"
+    android:background="#969292"
+    android:layout_marginTop="12dp"
+    android:id="@+id/imageView9" />
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Helping organisations lead change..."
+    android:layout_marginTop="8dp"
+    android:id="@+id/textView13"
+    android:layout_marginLeft="10dp"
+    android:textColor="#000000"/>
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Digital leaders resources"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technology is nothing without the people behind it. We're sharing digital leaders insight into how they have driven business change with people at the heart of the strategy."
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView16"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/discover_more1ID"
+        android:background="@drawable/white_but"
+        android:layout_marginTop="16dp"
+        android:text="Discover more"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+       />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Digital skills gap report"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The government's Science and Technology committee asserts that the UK risks being left behind if the Government does not take more action to address the digital skills crisis."
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView18"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/white_but"
+        android:layout_marginTop="10dp"
+        android:text="Discover more"
+        android:id="@+id/discover_more2ID"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Digital industry apprenticeships"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView20"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:text="Recruit and develop your digital talent with BCS' Digital Trailblazer Apprenticeships and create the digital leaders of tomorrow."
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/white_but"
+        android:layout_marginTop="10dp"
+        android:id="@+id/discover_more3ID"
+        android:layout_marginLeft="10dp"
+        android:text="Discover more"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
+
+
+</ScrollView>
